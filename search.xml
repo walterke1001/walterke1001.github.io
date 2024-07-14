@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Linux常用命令</title>
+      <link href="/2024/07/14/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2024/07/14/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1>Linux 常用命令</h1><h2 id="文件及目录管理">文件及目录管理</h2><ol><li class="lvl-3"><p><code>ls</code> - 列出目录的内容。</p></li><li class="lvl-3"><p><code>cd</code> - 更改当前工作目录。</p></li><li class="lvl-3"><p><code>pwd</code> - 打印当前工作目录。</p></li><li class="lvl-3"><p><code>mkdir</code> - 创建一个新目录。</p></li><li class="lvl-3"><p><code>rmdir</code> - 删除一个空目录。</p></li><li class="lvl-3"><p><code>rm</code> - 删除文件或目录。</p></li><li class="lvl-3"><p><code>mv</code> - 移动或重命名文件和目录。</p></li><li class="lvl-3"><p><code>cp</code> - 复制文件和目录。</p></li><li class="lvl-3"><p><code>touch</code> - 创建新文件或更新现有文件的时间戳。</p></li><li class="lvl-4"><p><code>find</code> - 根据各种标准搜索文件和目录。</p></li></ol><h2 id="文件查看和操作">文件查看和操作</h2><ol><li class="lvl-3"><p><code>cat</code>- 连接并显示一个或多个文件的内容。</p></li><li class="lvl-3"><p><code>less</code>- 一次一页地查看文件的内容。</p></li><li class="lvl-3"><p><code>head</code>- 显示文件的前几行。</p></li><li class="lvl-3"><p><code>tail</code>- 显示文件的最后几行。</p></li><li class="lvl-3"><p><code>grep</code>- 在文件或输入中搜索模式。</p></li><li class="lvl-3"><p><code>sed</code>- 用于编辑文件的流编辑器。</p></li><li class="lvl-3"><p><code>awk</code>- 模式扫描和处理语言。</p></li><li class="lvl-3"><p><code>sort</code>- 对文本文件的行进行排序。</p></li><li class="lvl-3"><p><code>uniq</code>- 报告或省略重复的行。</p></li><li class="lvl-4"><p><code>diff</code>- 逐行比较文件。</p></li></ol><h2 id="系统信息和管理">系统信息和管理</h2><ol><li class="lvl-3"><p><code>uname</code> - 打印系统信息。</p></li><li class="lvl-3"><p><code>uptime</code> - 显示系统已运行的时间。</p></li><li class="lvl-3"><p><code>free</code> - 显示可用和已用内存量。</p></li><li class="lvl-3"><p><code>top</code> - 显示和管理最活跃的 CPU 进程。</p></li><li class="lvl-3"><p><code>ps</code> - 报告当前流程的快照。</p></li><li class="lvl-3"><p><code>kill</code> - 通过进程 ID (PID) 终止进程。</p></li><li class="lvl-3"><p><code>killall</code> - 通过名称终止进程。</p></li><li class="lvl-3"><p><code>reboot</code> - 重新启动系统。</p></li><li class="lvl-3"><p><code>shutdown</code> - 关闭系统。</p></li><li class="lvl-4"><p><code>crontab</code> - 安排任务在特定时间或间隔运行。</p></li></ol><h2 id="用户和权限管理">用户和权限管理</h2><ol><li class="lvl-3"><p><code>useradd</code> - 创建一个新的用户帐户。</p></li><li class="lvl-3"><p><code>userdel</code> - 删除用户帐户。</p></li><li class="lvl-3"><p><code>usermod</code> - 修改用户账户。</p></li><li class="lvl-3"><p><code>groupadd</code> - 创建新组。</p></li><li class="lvl-3"><p><code>groupdel</code> - 删除组。</p></li><li class="lvl-3"><p><code>groupmod</code> - 修改群组。</p></li><li class="lvl-3"><p><code>chown</code> - 更改文件或目录的所有者。</p></li><li class="lvl-3"><p><code>chgrp</code> - 更改文件或目录的组所有权。</p></li><li class="lvl-3"><p><code>chmod</code> - 更改文件或目录的权限。</p></li><li class="lvl-4"><p><code>su</code> - 切换到另一个用户帐户。</p></li></ol><h2 id="网络和远程访问">网络和远程访问</h2><ol><li class="lvl-3"><p><code>ping</code> - 测试与远程主机的连接。</p></li><li class="lvl-3"><p><code>ifconfig</code> - 配置网络接口。</p></li><li class="lvl-3"><p><code>ssh</code> - 用于远程登录和文件传输的安全外壳。</p></li><li class="lvl-3"><p><code>scp</code> - 通过 SSH 传输文件的安全复制。</p></li><li class="lvl-3"><p><code>rsync</code> - 在两个位置之间同步文件和目录。</p></li><li class="lvl-3"><p><code>ftp</code> - 用于传输文件的文件传输协议。</p></li><li class="lvl-3"><p><code>nc</code> (或 <code>netcat</code>) - 通过网络连接读取和写入数据。</p></li><li class="lvl-3"><p><code>nmap</code> - 网络探索和安全审计工具。</p></li><li class="lvl-3"><p><code>wget</code> - 从网络检索文件。</p></li><li class="lvl-4"><p><code>curl</code> - 使用各种协议传输数据。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> bash </tag>
+            
+            <tag> shell </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>RabbitMQ，RocketMQ,Kafka的一些基础知识点</title>
       <link href="/2024/07/03/RabbitMQ%EF%BC%8CRocketMQ-Kafka%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
       <url>/2024/07/03/RabbitMQ%EF%BC%8CRocketMQ-Kafka%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/</url>
